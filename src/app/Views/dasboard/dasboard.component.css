@@ -1,0 +1,75 @@
+html{
+  background: #F26522;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+
+}
+
+.banner {
+  background-color: #F26522;
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black; /* Màu chữ đen */
+}
+
+.logo {
+  margin-right: 20px; /* Khoảng cách giữa phần logo và phần menu */
+}
+
+.menu {
+  display: flex;
+}
+
+.menu div {
+  margin: 0 10px; /* Khoảng cách giữa các mục menu */
+}
+
+.login-section {
+  margin-left: auto; /* Đẩy phần "Đăng nhập/Đăng ký" về bên phải */
+}
+
+.login-section div {
+  padding: 10px; /* Thêm padding cho phần "Đăng nhập/Đăng ký" */
+  background-color: #333; /* Màu nền */
+}
+
+.login-section a {
+  text-decoration: none;
+  color: white; /* Màu chữ trắng */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .banner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .logo {
+    margin-right: 0; /* Không có khoảng cách nếu ở chế độ responsive */
+  }
+
+  .menu {
+    flex-direction: column;
+    margin-top: 10px; /* Khoảng cách giữa logo và menu ở chế độ responsive */
+  }
+
+  .menu div {
+    margin: 5px 0; /* Khoảng cách giữa các mục menu ở chế độ responsive */
+  }
+
+  .login-section {
+    margin: 10px 0;
+  }
+}
+
